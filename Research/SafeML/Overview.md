@@ -79,6 +79,6 @@ These findings serve as a foundation for further research, especially in **healt
 
 ## References
 
-For additional resources and detailed methodologies:
-- Explore advancements in statistical testing and machine learning.
-- Refer to works on Wasserstein GANs, Cramér distance, and predictive modeling.
+- ISorokos (2020). SafeML/Documents/SafeML Safety Monitoring of Machine Learning Classifiers through Statistical Difference Measure.pdf at master · ISorokos/SafeML. [online] GitHub. Available at: https://github.com/ISorokos/SafeML/blob/master/Documents/SafeML%20Safety%20Monitoring%20of%20Machine%20Learning%20Classifiers%20through%20Statistical%20Difference%20Measure.pdf [Accessed 4 Dec. 2024].
+
+‌
