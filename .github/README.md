@@ -26,17 +26,13 @@ Next, we employ Qiskit machine leanring to instantiate VQC and fit it to our cho
 
 After this, we take a sampel class, in thsi example just the first class, and view the distance emtrics for the correcta dn incorrect rpediction sets. We do this for each dataset our model trianed on to garner the following results:
 
-╒════╤═══════════╤══════════════════╤══════════════════╤════════════╤════════════════════════════╤═════════════════╕
-│    │ Dataset   │   Bures Distance │   Trace Distance │   Fidelity │   Quantum Relative Entropy │   True Accuracy │
-╞════╪═══════════╪══════════════════╪══════════════════╪════════════╪════════════════════════════╪═════════════════╡
-│  0 │ Iris      │           0.7695 │           0.5208 │     0.4347 │                     1.0000 │          0.5667 │
-├────┼───────────┼──────────────────┼──────────────────┼────────────┼────────────────────────────┼─────────────────┤
-│  1 │ Wine      │           0.8832 │           0.3467 │     0.2982 │                     1.0000 │          0.3056 │
-├────┼───────────┼──────────────────┼──────────────────┼────────────┼────────────────────────────┼─────────────────┤
-│  2 │ Family    │           0.3021 │           0.0710 │     0.9098 │                     0.1810 │          0.3000 │
-├────┼───────────┼──────────────────┼──────────────────┼────────────┼────────────────────────────┼─────────────────┤
-│  3 │ Transport │           0.3559 │           0.1549 │     0.8735 │                     0.2960 │          0.2188 │
-╘════╧═══════════╧══════════════════╧══════════════════╧════════════╧════════════════════════════╧═════════════════╛
+| #  | Dataset   | Bures Distance | Trace Distance | Fidelity | Quantum Relative Entropy | True Accuracy |
+|----|-----------|----------------|----------------|----------|---------------------------|----------------|
+| 0  | Iris      | 0.7695         | 0.5208         | 0.4347   | 1.0000                    | 0.5667         |
+| 1  | Wine      | 0.8832         | 0.3467         | 0.2982   | 1.0000                    | 0.3056         |
+| 2  | Family    | 0.3021         | 0.0710         | 0.9098   | 0.1810                    | 0.3000         |
+| 3  | Transport | 0.3559         | 0.1549         | 0.8735   | 0.2960                    | 0.2188         |
+
 
 ## Contribution
 Overall, this project serves as a support of the bridging of the gap between quanutm comptuing and machien learning, bopth of which have shown significant potential to effect the future. Quanutm machine leanring's vast potential must be accompanied by adequate safety monitoring standrds, and so a logical step to beginthe dialouge surrounding this domain is an adaptation of an existing classical machine learning safety monitoring method onto a hybrid system.
