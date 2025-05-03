@@ -33,6 +33,29 @@ After this, we take a sampel class, in thsi example just the first class, and vi
 | 2  | Family    | 0.3021         | 0.0710         | 0.9098   | 0.1810                    | 0.3000         |
 | 3  | Transport | 0.3559         | 0.1549         | 0.8735   | 0.2960                    | 0.2188         |
 
+## 📦 Quantum SafeML (`QSafeML`)
+
+**Quantum SafeML** is a proof-of-concept framework that extends the [SafeML](https://doi.org/10.1016/j.artint.2021.103537) safety monitoring methodology to quantum machine learning (QML) systems. It adapts classical out-of-distribution detection principles for quantum classifiers using quantum-specific distance metrics like **trace distance**, **Bures distance**, and **quantum fidelity**.
+
+This project implements Quantum SafeML on QML models including:
+- Variational Quantum Classifiers (VQC),
+- Quantum Neural Networks (QNN), and
+- Quantum Kernel-based Classifiers (QSVC),
+
+using IBM's [Qiskit](https://qiskit.org/) simulator.
+
+💡 The approach allows monitoring and identifying prediction uncertainty in quantum models—critical for building safe and trustworthy quantum AI in domains such as healthcare, robotics, and cybersecurity.
+
+📄 Project conducted as part of a BSc dissertation at the **University of Hull** under the supervision of [Dr Koorosh Aslansefat](https://www.hull.ac.uk/staff-directory/koorosh-aslansefat).
+
+🎓 [Thesis PDF](./Oliver_BSc_Thesis.pdf)
+
+🎥 Watch the project walkthrough:
+[![Watch the video](http://img.youtube.com/vi/ndlLo0g1R7E/0.jpg)](https://www.youtube.com/watch?v=ndlLo0g1R7E)
+
+🌐 More info: [Project Website](https://plennock.github.io/Honours-Stage-Project/)
+
+
 
 ## Contribution
 Overall, this project serves as a support of the bridging of the gap between quanutm comptuing and machien learning, bopth of which have shown significant potential to effect the future. Quanutm machine leanring's vast potential must be accompanied by adequate safety monitoring standrds, and so a logical step to beginthe dialouge surrounding this domain is an adaptation of an existing classical machine learning safety monitoring method onto a hybrid system.
