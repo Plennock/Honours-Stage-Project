@@ -51,6 +51,8 @@ using IBM's [Qiskit](https://qiskit.org/) simulator.
 🎓 [Thesis PDF](./Oliver_BSc_Thesis.pdf)
 
 🎥 Watch the project walkthrough:
+
+
 [![Watch the video](http://img.youtube.com/vi/ndlLo0g1R7E/0.jpg)](https://www.youtube.com/watch?v=ndlLo0g1R7E)
 
 🌐 More info: [Project Website](https://plennock.github.io/Honours-Stage-Project/)
