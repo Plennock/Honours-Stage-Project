@@ -48,7 +48,7 @@ using IBM's [Qiskit](https://qiskit.org/) simulator.
 
 📄 Project conducted as part of a BSc dissertation at the **University of Hull** under the supervision of [Dr Koorosh Aslansefat](https://www.hull.ac.uk/staff-directory/koorosh-aslansefat).
 
-🎓 [Thesis PDF](./Oliver_BSc_Thesis.pdf)
+🎓 [Thesis PDF](https://github.com/Plennock/Honours-Stage-Project/blob/main/docs/Quantum_SafeML_BSc_Thesis.pdf)
 
 🎥 Watch the project walkthrough:
 
